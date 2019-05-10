@@ -1,0 +1,868 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<title>PowerBuy</title>
+<style type="text/css">
+.app_fff a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.app_444 a {
+	color: #444444;
+	text-decoration: none;
+}
+a.disable_link_blu {
+	pointer-events: none;
+	cursor: none;
+	color: #444444;
+}
+a.disable_link_wht, .disable_link_wht a {
+	pointer-events: none;
+	cursor: none;
+	color: #ffffff;
+}
+body {
+	width: 100% !important;
+	min-width: 100%;
+	margin: 0 !important;
+	padding: 0;
+	font-size: 0;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+#outlook a {
+	padding: 0px;
+	align-content: center;
+}
+.ReadMsgBody {
+	width: 100%;
+}
+.ExternalClass {
+	width: 100%;
+}
+.ExternalClass * {
+	line-height: 100%;
+}
+.ExternalClass * {
+	font-size: 100%
+}
+.mph {
+	display: none !important;
+}
+img {
+    display: block;
+    }
+ @media only screen and (max-device-width: 600px), (max-width: 600px) {
+td[class=produceTd1] {
+	width: 100% !important;
+	float: left !important;
+	border-bottom: 1px solid #a9a9a9 !important;
+	padding: 15px 0px !important;
+}
+td[class="showMobile"] img {
+    width: 100% !important;
+    max-width: 276px !important;
+    height: auto !important;
+    display: block !important;
+    visibility: visible !important;
+    max-height: inherit !important;
+    }
+img[class=produceImg] {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    }
+.mobilewrap, .wd_auto {
+	width: 100% !important;
+	height: auto !important;
+}
+.noneMobile {
+	display: none !important;
+}
+.wd_auto_top {
+	width: 100% !important;
+	height: auto !important;
+	border: solid 1px !important;
+	border-color: #eeeeee #eeeeee #eeeeee #eeeeee !important;
+	padding: 20px 0 0 0 !important;
+}
+.wd_auto_top1 {
+	width: 100% !important;
+	height: auto !important;
+	border: solid 1px !important;
+	border-color: #eeeeee #eeeeee #aaaaaa #eeeeee !important;
+	padding: 20px 0 20px 0px !important;
+}
+.wd_auto_top2 {
+	width: 100% !important;
+	height: auto !important;
+	border: solid 1px !important;
+	border-color: #eeeeee #eeeeee #eeeeee #eeeeee !important;
+	padding: 0px 0 0px 0px !important;
+}
+.wd_auto_btm {
+	width: 100% !important;
+	height: auto !important;
+	padding-top: 20px !important;
+}
+.wd_auto_btm1 {
+	width: 100% !important;
+	height: auto !important;
+	vertical-align: bottom !important;
+	line-height: 30px !important;
+	padding-top: 5px;
+}
+.wd_auto_btm2 {
+	width: 100% !important;
+	height: auto !important;
+	vertical-align: top !important;
+	line-height: 0px !important;
+}
+.fluid_image, img[class="fluid_image"] {
+	width: 100% !important;
+	height: auto !important;
+}
+.h_auto_pdb15 {
+  height: auto !important;
+  padding-bottom: 15px;
+}
+.h_auto {
+	height: auto !important;
+}
+.h_10 {
+	height: 10px !important;
+}
+.h_15 {
+	height: 15px !important;
+}
+.h_36 {
+	height: 36px !important;
+}
+.mobilewrap_btmtray {
+	width: 100% !important;
+	border-bottom: 2px solid #ffffff !important;
+	border-right: none !important;
+}
+a[class="disable_link_blu"] {
+	pointer-events: auto !important;
+	cursor: pointer !important;
+	color: #b7295a !important;
+}
+a[class="disable_link_wht"] {
+	pointer-events: auto !important;
+	cursor: pointer !important;
+	color: #ffffff !important;
+}
+.txt_ctr {
+	text-align: center !important;
+}
+img.center {
+	display: block !important;
+	margin: 0 auto !important;
+}
+.hSpacer20 {
+	height: 20px !important;
+}
+.nonePadd {
+	padding: 0px !important;
+}
+.fnt_4vw {
+	font-size: 5.0vw !important;
+	line-height: 5.0vw !important;
+}
+.fnt_8vw {
+	font-size: 12.5vw !important;
+	line-height: 12.5vw !important;
+}
+.fnt_16vw {
+	font-size: 13.0vw !important;
+	line-height: 13.0vw !important;
+}
+.fnt_14vw {
+	font-size: 11.0vw !important;
+	line-height: 11.0vw !important;
+}
+.height_auto {
+	height: auto !important;
+}
+.fnt_38vw {
+	font-size: 30.0vw !important;
+	line-height: 30.0vw !important;
+}
+.fluid_image, img[class="fluid_image"] {
+	width: 100% !important;
+	height: auto !important;
+}
+.mob_text {
+	font-size: 50px !important;
+	line-height: 54px !important;
+}
+.mob_text1 {
+	font-size: 22px !important;
+	line-height: 26px !important;
+}
+.callout{
+	line-height: 22px !important;
+	padding: 6px;
+	vertical-align: middle;
+	align-content: center;
+}	 
+.td_pad {
+	width: 10px;
+}
+}
+table {
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+}
+</style>
+</head>
+
+<body bgcolor="#ffffff" style="font-family:Arial, Helvetica, sans-serif; mso-line-height-rule: exactly;">
+<table bgcolor="#ffffff" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" width="650"><table class="mobilewrap" width="650" style="width:650px" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+    <td  height="10" class="noneMobile">&nbsp;</td>
+    <td  height="10" class="noneMobile">&nbsp;</td>
+    <td class="noneMobile">&nbsp;</td>
+    </tr>
+        <tr>
+          <td class="noneMobile" style="width:25px;">&nbsp;</td>
+          <td bgcolor="#ffffff" align="center"><table bgcolor="#ffffff" class="mobilewrap" width="600" style="width:600px;" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td bgcolor="#ffffff" class="h_10" height="20" style="font-size:0px; line-height:0px; border:0px;"><table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td bgcolor="#ffffff" class="h_10" height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#ffffff" align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="10" style="width:10px; font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                            <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top" bgcolor="#ffffff"><table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="0">
+									  <tr>
+                                        <td width="87" class="noneMobile"  >&nbsp;</td>
+                                        <td valign="middle" class="colsplit"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td align="center" valign="middle" style=" font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; color:#444444; padding-left:10px;">Having trouble viewing this? <webversion><span style="color:#007DB8; text-decoration: none;">View Online</span></webversion></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#ffffff" height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+    <td valign="top" bgcolor="#ffffff"><table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td valign="middle" width="10" align="center"></td>
+    <td valign="middle" width="67" align="center" class="colsplit"><table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td width="139" align="center" valign="middle"><a href="https://www.powerbuy.com.au/deals/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Home-012019&r=444208CFFA" target="_blank"><img src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/2000/dell_smallbusiness.jpg" width="134" height="40" style="font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; line-height:16px; color:#b7295a; display:block;" alt="DELL SMALL BUSINESS" title="DELL SMALL BUSINESS" border="0" /></a></td>
+    </tr>
+    </table></td>
+    <td width="20" height="15" class="colsplit" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+		<!-- Logo -->
+    <td valign="middle" width="67" align="center" class="colsplit"><table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td  bgcolor="#ffffff"><a href="https://www.powerbuy.com.au/deals/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Home-012019&r=444208CFFA" target="_blank"><img style="display:block;"  src="https://www.powerbuy.com.au/uploads/ufiles/pblogo/powerbuy_logo1.png" alt="PowerBuy" title="PowerBuy" width="200" height="40" border="0"/></a></td>
+    </tr>
+    </table></td>
+		<!-- Logo -->
+    <td width="20" height="5" class="colsplit" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+    <td valign="middle" width="10" align="center"></td>
+    </tr>
+	<tr>
+    <td height="18" bgcolor="#ffffff" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+    </tr>
+    </table></td>
+    </tr>
+                              </table></td>
+                            <td width="10" style="width:10px; font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td height="10" bgcolor="#ffffff" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#ffffff" align="center"  valign="top"><table  border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="20">&nbsp;</td>
+                            <td style="font-family:Arial, Helvetica, sans-serif; font-size:14px;  line-height: 16px; color: #444444;">Windows 10 Pro means business.</td>
+                            <td width="22">&nbsp;</td>
+                            <td width="115" align="left" valign="middle"><img src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/2000/windows10.jpg" alt="Windows 10" width="101" height="19" class="produceImg_win" style="display:block;" title="Windows 10" border="0" /></td>
+                            <td width="22">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td height="20" bgcolor="#ffffff" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+			  <tr>
+              	<td height="10" bgcolor="#ffffff" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor="#ffffff"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4969&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4969_Dell-012019%26r%3Dpowerbuy" target="_blank"><img style="display:block;" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_pb-coupon-5.png" class="fluid_image" alt="Extra 5% off with member coupon" title="Extra 5% off with member coupon" width="600" height="125" border="0"/></a></td>
+              </tr>
+			  <tr>
+              	<td height="10" bgcolor="#ffffff" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                <td bgcolor="#ffffff"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4970&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4970_Dell-012019%26r%3Dpowerbuy" target="_blank"><img style="display:block;" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_hero.png" class="fluid_image" alt="Back to work sale - Up to 20% off selected XPS notebooks" title="Back to work sale - Up to 20% off selected XPS notebooks" width="600" height="600" border="0"/></a></td>
+              </tr>
+			  <tr>
+                <td bgcolor="#eeeeee"  height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+				  <td class="noneMobile" style="width:15px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                <td valign="top" bgcolor="#eeeeee"><table width="100%" height="172" border="0" cellpadding="0" cellspacing="0" bgcolor="#eeeeee">
+                    <tr>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td style=" width:20px;">&nbsp;</td>
+                                  <td valign="top">
+									  <table align="right" width="236" style="width:236px;" class="wd_auto" border="0" cellspacing="0" cellpadding="0">
+                                      <!--<tr>
+                                        <td class="noneMobile" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>-->
+                                      <tr>
+                                        <td valign="top" align="center"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4970&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4970_Dell-012019%26r%3Dpowerbuy" target="_blank"><img style="display:block" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_hero2.png" alt="20% off XPS 13 (9370)" title="20% off XPS 13 (9370)" width="235" height="176" border="0" /></a></td>
+                                      </tr>
+                                    </table>
+                                    <table width="230" align="left" style="width:230px;" class="wd_auto" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                                          <td align="left" height="20" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px; color:#b7295a; font-weight:bold;">20% OFF </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" class="tdp5 t1_1" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:17px; font-weight:bold; color:#444444;">XPS 13 (9370)</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444;">Discounted price </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" align="left"><table border="0" cellspacing="0" cellpadding="0">
+                                                              <tr>
+                                                                <td valign="top" style="font-size:11px; line-height:11px; color:#b7295a; font-weight:bold; font-family:Arial, Helvetica, sans-serif; ">$</td>
+                                                                <td valign="top" style="font-family:Arial, Helvetica, sans-serif;  font-size:21px; line-height:21px; font-weight:bold;  color:#b7295a;">2,239*</td>
+                                                              </tr>
+                                                            </table></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444;">Includes 20% off, GST &amp; delivery</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" height="5" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" height="44" class="height_auto" style="font-family:Arial, Helvetica, sans-serif;  font-size:9px; line-height:13px; color:#444444;">8th Gen Intel<sup style="font-size:7px; line-height:8px;">&#174;</sup> Core™ i7 processor, Windows 10 Pro, 8GB Memory, 256GB PCIe Solid State Drive, Intel<sup style="font-size:7px; line-height:8px;">&#174;</sup> UHD Graphics 620.</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" height="15" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" height="33"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4970&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4970_Dell-012019%26r%3Dpowerbuy" target="_blank" style="color:#ce1126; text-decoration:none;"><img src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_shopnow.png" style="display:block;" width="92" height="31" alt="Shop Now" title="Shop Now"  border="0"/></a></td>
+                                                        </tr>
+                            <!--<tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444; padding-top: 8px;">Offer ends 6 December 2018.</td>
+                                                        </tr>-->
+                                    </table></td>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td style=" width:20px;">&nbsp;</td>
+                                </tr>
+					
+					<td  bgcolor="#eeeeee" height="0" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                  </table></td>
+              </tr>
+			  <tr>
+                <td bgcolor="#eeeeee"  height="26" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+				  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                <td  bgcolor="#ffffff" height="10" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                            <td height="20" valign="top" bgcolor="#eeeeee" style="font-size:0px; line-height:0px;"><table class="wd_auto_top2" align="left" width="50%" border="0" cellspacing="0" cellpadding="0" style="border-right:#eeeeee solid 0px;">
+                                <tr>
+                                  <td valign="top" align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td height="78" class="h_auto" valign="bottom" align="center" style="height:78px;"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4971&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Flearn%2Fau%2Fen%2Faudhs1%2Fconsumer-premium-support%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4971_Dell-012019%26r%3Dpowerbuy" target="_blank"><img src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_premium-support.png" width="300" height="78" style="font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; line-height:16px; color:#444444; display:block;" alt="Dell Premium Support"  title="Dell Premium Support" border="0" /></a></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                    </table>
+								  </td>
+                                </tr>
+                              </table>
+                              <table class="wd_auto_top2" align="right" width="50%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tr>
+                                        <td height="78" class="h_auto" valign="bottom" align="center" bgcolor="#b7295a" style="height:78px;"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4972&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Flearn%2Fau%2Fen%2Faudhs1%2Fcampaigns%2Fdell-advantage-reward-anz%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4972_Dell-012019%26r%3Dpowerbuy" target="_blank"><img src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_dell-advantage-program.png" width="300" height="78" style="font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; line-height:16px; color:#444444; display:block;" alt="Dell Advantage Loyalty Rewards"  title="Dell Advantage Loyalty Rewards" border="0" /></a></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+			  <tr>
+                <td  bgcolor="#ffffff" height="10" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                <td bgcolor="#eeeeee"  height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                <td valign="top" bgcolor="#eeeeee"><table width="100%" height="172" border="0" cellpadding="0" cellspacing="0" bgcolor="#eeeeee">
+                    <tr>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td style=" width:20px;">&nbsp;</td>
+                                  <td valign="top">
+									  <table align="left" width="236" style="width:236px;" class="wd_auto" border="0" cellspacing="0" cellpadding="0">
+                                      <!--<tr>
+                                        <td class="noneMobile" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>-->
+                                      <tr>
+                                        <td valign="top" align="center"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4973&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4973_Dell-012019%26r%3Dpowerbuy" target="_blank"><img style="display:block" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_mini1.png" alt="20% off XPS 13 2-in-1" title="20% off XPS 13 2-in-1" width="235" height="176" border="0" /></a></td>
+                                      </tr>
+                                    </table>
+                                    <table width="230" align="right" style="width:230px;" class="wd_auto" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                          <td align="left" height="20" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px; color:#b7295a; font-weight:bold;">20% OFF </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" class="tdp5 t1_1" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:17px; font-weight:bold; color:#444444;">XPS 13 2-in-1</td>
+                                                        </tr>
+                            <!--<tr>                                              
+                                                          <td align="left" height="14" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:14px; color:#b7295a; font-weight:bold;">Discounted price after coupon <strong>NOT2LATE</strong></td>
+                                                        </tr>-->
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444;">Discounted price </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" align="left"><table border="0" cellspacing="0" cellpadding="0">
+                                                              <tr>
+                                                                <td valign="top" style="font-size:11px; line-height:11px; color:#b7295a; font-weight:bold; font-family:Arial, Helvetica, sans-serif; ">$</td>
+                                                                <td valign="top" style="font-family:Arial, Helvetica, sans-serif;  font-size:21px; line-height:21px; font-weight:bold;  color:#b7295a;">2,399*</td>
+                                                              </tr>
+                                                            </table></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444;">Includes 20% off, GST &amp; delivery</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" height="5" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" height="44" class="height_auto" style="font-family:Arial, Helvetica, sans-serif;  font-size:9px; line-height:13px; color:#444444;">8th Gen Intel<sup style="font-size:7px; line-height:8px;">&#174;</sup> Core™ i7 processor, Windows 10 Pro, 16GB Memory, 512GB PCIe Solid State Drive, Intel<sup style="font-size:7px; line-height:8px;">&#174;</sup> HD Graphics 615.</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" height="5" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;  font-size:14px; line-height:18px; font-weight:bold; color:#b7295a;"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4973&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4973_Dell-012019%26r%3Dpowerbuy" target="_blank" style="color:#b7295a; text-decoration:none;">Shop Now <span style="font-size:17px;">&#8250;</span></a></td>
+                                                        </tr>
+                            <!--<tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444; padding-top: 8px;">Offer ends 6 December 2018.</td>
+                                                        </tr>-->
+                                    </table></td>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td style=" width:20px;">&nbsp;</td>
+                                </tr>
+					
+					<td  bgcolor="#eeeeee" height="0" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                  </table></td>
+              </tr>
+			  <tr>
+                <td bgcolor="#eeeeee" valign="top"><table bgcolor="#eeeeee" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td bgcolor="#eeeeee" style=" width:20px;">&nbsp;</td>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td bgcolor="#eeeeee" valign="top"><table bgcolor="#eeeeee" width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td bgcolor="#eeeeee" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#eeeeee" height="14" style=" border-top: 1px solid #aaaaaa; font-size:0px; line-height:0px;">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                      <td bgcolor="#eeeeee" style=" width:20px;">&nbsp;</td>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+			  <tr>
+                <td valign="top" bgcolor="#eeeeee"><table width="100%" height="172" border="0" cellpadding="0" cellspacing="0" bgcolor="#eeeeee">
+                    <tr>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td style=" width:20px;">&nbsp;</td>
+                                  <td valign="top">
+									  <table align="right" width="236" style="width:236px;" class="wd_auto" border="0" cellspacing="0" cellpadding="0">
+                                      <!--<tr>
+                                        <td class="noneMobile" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>-->
+                                      <tr>
+                                        <td valign="top" align="center"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4974&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4974_Dell-012019%26r%3Dpowerbuy" target="_blank"><img style="display:block" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_mini2.png" alt="20% off XPS 15 2-in-1" title="20% off XPS 15 2-in-1" width="235" height="176" border="0" /></a></td>
+                                      </tr>
+                                    </table>
+                                    <table width="230" align="left" style="width:230px;" class="wd_auto" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                                          <td align="left" height="20" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px; color:#b7295a; font-weight:bold;">20% OFF </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" class="tdp5 t1_1" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:17px; font-weight:bold; color:#444444;">XPS 15 2-in-1 </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444;">Discounted price </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" align="left"><table border="0" cellspacing="0" cellpadding="0">
+                                                              <tr>
+                                                                <td valign="top" style="font-size:11px; line-height:11px; color:#b7295a; font-weight:bold; font-family:Arial, Helvetica, sans-serif; ">$</td>
+                                                                <td valign="top" style="font-family:Arial, Helvetica, sans-serif;  font-size:21px; line-height:21px; font-weight:bold;  color:#b7295a;">3,199*</td>
+                                                              </tr>
+                                                            </table></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444;">Includes 20% off, GST &amp; delivery</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" height="5" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" height="44" class="height_auto" style="font-family:Arial, Helvetica, sans-serif;  font-size:9px; line-height:13px; color:#444444;">8th Gen Intel<sup style="font-size:7px; line-height:8px;">&#174;</sup> Core™ i7 processor, Windows 10 Pro, 16GB Memory, 512GB PCIe Solid State Drive, Radeon™ RX Vega M GL Graphics with 4GB HBM2 Graphics Memory.</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" height="5" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;  font-size:14px; line-height:18px; font-weight:bold; color:#b7295a;"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4974&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4974_Dell-012019%26r%3Dpowerbuy" target="_blank" style="color:#b7295a; text-decoration:none;">Shop Now <span style="font-size:17px;">&#8250;</span></a></td>
+                                                        </tr>
+                            <!--<tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:8px; line-height:12px; color:#444444; padding-top: 8px;">Offer ends 6 December 2018.</td>
+                                                        </tr>-->
+                                    </table></td>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td style=" width:20px;">&nbsp;</td>
+                                </tr>
+					
+					<td  bgcolor="#eeeeee" height="0" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                  </table></td>
+              </tr>
+			  <tr>
+                <td bgcolor="#eeeeee" valign="top"><table bgcolor="#eeeeee" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td bgcolor="#eeeeee" style=" width:20px;">&nbsp;</td>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td bgcolor="#eeeeee" valign="top"><table bgcolor="#eeeeee" width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td bgcolor="#eeeeee" height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                      <td bgcolor="#eeeeee" style=" width:20px;">&nbsp;</td>
+					  <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+			  <tr>
+                <td  bgcolor="#ffffff" height="10" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                <td bgcolor="#eeeeee"  height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+				<td class="noneMobile" style="height:20px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                <td valign="top" bgcolor="#eeeeee"><table width="100%" height="172" border="0" cellpadding="0" cellspacing="0" bgcolor="#eeeeee">
+					
+                    <tr>
+                      <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                      <td style=" width:20px;">&nbsp;</td>
+                      <td bgcolor="#eeeeee" align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td valign="top" bgcolor="#eeeeee" style="font-size:0px; line-height:0px; border:0px;"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" valign="top" bgcolor="#eeeeee" style="font-size:0px; line-height:0px;"><table class="wd_auto_top" align="left" width="48%" border="0" cellspacing="0" cellpadding="0" style="border-right:#eeeeee solid 1px;">
+                                <tr>
+                                  <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td height="127" class="h_auto" valign="bottom" align="center" style="height:127px;"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4976&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Faccessories%2Fdeals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4976_Dell-012019%26r%3Dpowerbuy" target="_blank"><img src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_monitor.png" width="235" height="157" style="font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; line-height:16px; color:#444444; display:block;" alt="Dell Monitor Deals"  title="Dell Monitor Deals" border="0" /></a></td>
+                                            </tr>
+                                          </table></td>
+                                        <td class="noneMobile" width="10" align="left" valign="top" style="width:10px;">&nbsp;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                              <table class="wd_auto_btm" align="right" width="44%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tr>
+                                        <td valign="top" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                              <td valign="top" height="2" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                              <td align="left" valign="top" class="tdp5 t1_1" style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:24px; font-weight:bold; color:#b7295a;">#1 Monitor Deals</td>
+                                            </tr>
+											<tr>
+                                              <td valign="top" height="5" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                              <td align="left" valign="top" height="96" class="height_auto" style="font-family:Arial, Helvetica, sans-serif;  font-size:11px; line-height:14px; color:#444444;">Explore award-winning Dell monitors and Ultrasharp monitors with vivid color, advanced connectivity and performance at work or at home.<!--<br><br>Coupon code: <strong><span style="color:#007db8; font-size:13px">FRENZY25</span></strong>-->
+												</td>
+                                            </tr>
+                                            <tr>
+                                              <td valign="top" height="5" align="left" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                              <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:18px; font-weight:bold; color:#b7295a;"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4976&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Faccessories%2Fdeals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4976_Dell-012019%26r%3Dpowerbuy" target="_blank" style="color:#b7295a; text-decoration:none;">Shop Now <span style="font-size:17px;">&#8250;</span></a></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#eeeeee" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <!--<tr>
+                                        <td bgcolor="#eeeeee" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#eeeeee" height="14" style=" border-top: 1px solid #aaaaaa; font-size:0px; line-height:0px;">&nbsp;</td>
+                                      </tr>-->
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          
+                        </table></td>
+                      <td style="font-size:0px; line-height:0px; width:20px;">&nbsp;</td>
+                      <td class="noneMobile" style="width:20px;">&nbsp;</td>
+                    </tr>
+					
+					<td  bgcolor="#eeeeee" height="0" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                  </table></td>
+              </tr>
+			  <tr>
+                <td bgcolor="#eeeeee"  height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+			  <tr>
+                <td bgcolor="#ffffff"><a href="http://altfarm.mediaplex.com/ad/ck/10589-241066-29915-0?ven1=smb&ven2=B9654-013|C3560-012|Z4975&ven3=012019&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fwork%2Fshop%2Fdeals%2Flaptop-deals%3Futm_source%3DPowerbuy-3%26utm_medium%3Demail%26utm_campaign%3DB9654-013_C3560-012_Z4975_Dell-012019%26r%3Dpowerbuy" target="_blank"><img style="display:block;" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/1901/week12_pb-coupon-100.png" class="fluid_image" alt="Extra $100 off with coupon" title="Extra $100 off with coupon" width="600" height="125" border="0"/></a></td>
+              </tr>
+			  <tr>
+                <td  bgcolor="#ffffff" height="10" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td  bgcolor="#eeeeee" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="top" bgcolor="#eeeeee"><table bgcolor="#eeeeee" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="top" bgcolor="#eeeeee"><table bgcolor="#eeeeee" width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td valign="top"><!--[if gte mso 9]>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600px;"> 
+<tr>
+<td align="left" valign="top" width="198" style="width:198px;">
+<![endif]-->
+                              
+                              <table class="mobilewrap_btmtray" align="left" style="width:198px; border-right:2px solid #ffffff;" width="198" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td bgcolor="#eeeeee" valign="top"><table align="left" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top"><table align="left" width="96%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td width="20">&nbsp;</td>
+                                              <td width="36" height="35" align="center" valign="middle" style="width:36px; height:35px;"><a href="https://www.powerbuy.com.au/laptops/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Laptops-012019&r=444208CFFA" target="_blank"><img style="display:block;" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/2000/laptop-icon.gif" width="36" height="25" alt="Laptops" title="Laptops" border="0"/></a></td>
+                                              <td width="10">&nbsp;</td>
+                                              <td  align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:16px; color:#444444;"><a href="https://www.powerbuy.com.au/laptops/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Laptops-012019&r=444208CFFA" target="_blank" style="color:#444444; text-decoration:none;">Laptops</a></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#eeeeee" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                              
+                              <!--[if gte mso 9]>
+</td>
+<td align="left" valign="top" width="198" style="width:198px;">
+<![endif]-->
+                              
+                              <table bgcolor="#eeeeee" class="mobilewrap_btmtray" align="left" style="width:198px; border-right:2px solid #ffffff;" width="198" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td bgcolor="#eeeeee" valign="top"><table bgcolor="#eeeeee" align="left" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top"><table align="left" width="96%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td width="20">&nbsp;</td>
+                                              <td align="center" valign="middle" height="35" width="35" style="width:35px; height:35px;"><a href="https://www.powerbuy.com.au/desktops/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Desktops-012019&r=444208CFFA" target="_blank"><img style="display:block;" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/2000/aio-desktop-icon.gif" width="17" height="30" alt="Desktops &amp; All-in-One PCs" title="Desktops &amp; All-in-One PCs" border="0"/></a></td>
+                                              <td width="10">&nbsp;</td>
+                                              <td  align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:16px; color:#444444;"><a href="https://www.powerbuy.com.au/desktops/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Desktops-012019&r=444208CFFA" target="_blank" style="color:#444444; text-decoration:none;">Desktops<br class="noneMobile" />
+                                                &amp; All-in-One PCs</a></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#eeeeee" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                              
+                              <!--[if gte mso 9]>
+</td>
+<td align="left" valign="top" width="198" style="width:198px;">
+<![endif]-->
+                              
+                              <table bgcolor="#eeeeee" class="wd_auto" align="left" style="width:198px;" width="198" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td bgcolor="#eeeeee" valign="top"><table bgcolor="#eeeeee" align="left" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top"><table align="left" width="96%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td width="20">&nbsp;</td>
+                                              <td width="35" height="35" align="center" valign="middle" style="width:35px; height:35px;"><a href="https://www.powerbuy.com.au/accessories/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Accessories-012019&r=444208CFFA" target="_blank"><img style="display:block;" src="https://pbaccess.powerbuy.com.au/uploads/ufiles/email/2000/monitor-icon.gif" width="32" height="25" alt="Monitors &amp; Accessories" title="Monitors &amp; Accessories" border="0"/></a></td>
+                                              <td width="10">&nbsp;</td>
+                                              <td  align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:16px; color:#444444;"><a href="https://www.powerbuy.com.au/accessories/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Accessories-012019&r=444208CFFA" target="_blank" style="color:#444444; text-decoration:none;">Monitors &amp; Accessories</a></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#eeeeee" height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                              
+                              <!--[if gte mso 9]>
+</td>
+</tr>
+</table>
+<![endif]--></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#eeeeee" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="20" style="width:20px">&nbsp;</td>
+                      <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="15" style="border-bottom:1px solid #aaaaaa; font-size:0px; line-height:0px;">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="15" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:13px; color:#444444;">You have received this email because you are subscribed to PowerBuy emails. <br />
+                              To unsubscribe from PowerBuy emails, <unsubscribe><span style="color:#007DB8; text-decoration: none;">click here.</span></unsubscribe></td>
+                          </tr>
+                          <tr>
+                            <td height="10" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:13px; color:#444444;">
+                <strong>*Terms and Conditions:</strong> Terms and conditions apply and available <a href="http://www.dell.com/learn/au/en/aucorp1/terms-of-sale" target="_blank" style="color:#007DB8; text-decoration:none;">here</a> for Dell. Limited to 5 units per customer. Offer valid until 24 January 2019, unless otherwise stated.
+                <br>
+                <br><strong>Dell Coupon Terms & Conditions:</strong> If you have received a coupon with a coupon code from Dell Australia Pty Limited, and you use it to obtain a coupon discount, the following coupon terms and conditions apply: Discount coupons can only be used with purchases of selected Dell-branded work systems, Dell-branded printers, flat panel monitors and accessories (keyboard, mouse or peripherals). Limited to 5 units per customer per coupon when purchasing online at dell.com.au. To redeem this offer, visit the Dell Australia online store at dell.com.au and insert the coupon code at the “Review Your Order” stage. Coupon discounts can only be redeemed when the order is confirmed at Checkout in the Dell Australia Online store. Coupon discounts cannot be redeemed after an order has been submitted and confirmed. Dell is not liable for coupons that are lost or stolen. A coupon cannot be exchanged, refunded, replaced or redeemed for cash or payment of accounts. Dell reserves the right to cancel coupon promotions at any time. These terms and conditions are subject to change at any time without prior written notice from Dell. 
+                <br><br>
+                +The purchase using the discount coupon must be made on dell.com.au. The coupon is part of the Dell Advantage Buy & Get campaign. The discount is non-cumulative and may be used only once. Discount coupons offered by Dell are not cumulative with other coupons. If the customer has more than one coupon, they must choose which one to use. For the whole information about this campaign, please visit our terms and conditions at dell.com.au/delladvantage.
+                <br><br>
+                <strong>Online pricing:</strong> Prices advertised online include delivery fees. Goods are supplied by delivery only. 
+                <br><br>
+                <strong>Mistakes:</strong> PowerBuy makes every effort to ensure the accuracy of all information but takes no responsibility for any editorial, photographic or typographic errors. PowerBuy reserves the right to correct any errors, inaccuracies or omissions and to change or update information and offers at any time without prior notice. <br />
+                <br />
+                <strong>Trademarks:</strong> Dell, Inspiron, Vostro and XPS are trademarks of Dell Inc. Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, vPro Inside, Xeon, Xeon Phi, Xeon Inside, and Intel Optane are trademarks of Intel Corporation or its subsidiaries in the U.S. and/or other countries. Microsoft and Windows are trademarks of the Microsoft group of companies. Other trademarks and trade names may be used in this advertisement to refer to either the entity claiming the marks and names or their product. Dell Inc. disclaims any proprietary interest in these trademarks and names. 
+                <strong>Further information:</strong> For more important information about our products and services go to Dell.com.au/important_information. 
+                <strong>Copyright:</strong> &copy; 2018 Dell Inc. All rights reserved.<br />
+                <br><br>
+                &copy; PowerBuy 2018.<br>
+                All rights reserved.
+                              <br /></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#eeeeee" height="10" style="font-size:0px; line-height:0px; border:0px;"><table bgcolor="#eeeeee" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td valign="top"><table width="264" align="left"  style="width:264px; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:15px; color:#444444;">
+                                      <tr>
+                                        <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:13px; color:#444444; padding-bottom:20px;"><a href="	https://www.powerbuy.com.au/login-or-register/?Target=/my-account/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_My-Account-012019&r=444208CFFA" target="_blank" style="color:#007DB8; text-decoration:none;"><span style="color:#007DB8;">My Account</span></a> | <a href="https://www.powerbuy.com.au/privacy-policy/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Privacy-Policy-012019&r=444208CFFA" target="_blank" style="color:#007DB8; text-decoration:none;"><span style="color:#007DB8;">Privacy Policy</span></a> | <a href="https://www.powerbuy.com.au/frequently-asked-questions/?utm_source=Powerbuy-3&utm_medium=email&utm_campaign=B9654-013_Contact-Us-012019&r=444208CFFA" target="_blank" style="color:#007DB8; text-decoration:none;"><span style="color:#007DB8;">Contact Us</span></a> <br /></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100" align="right" class="wd_auto" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td align="left"><table width="100" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td width="25" height="25" align="center" valign="middle" style="width:25px; height:25px;"><a href="https://www.facebook.com/powerbuyit" ><img style="display:block;" src="https://www.powerbuy.com.au/uploads/ufiles/email/2000/facebook-logo.png" width="25" height="25" alt="Facebook Logo" title="Facebook Logo" border="0"/></a></td>
+                                              <td width="10">&nbsp;</td>
+                                              <td width="31" height="25" align="center" valign="middle" style="width:31px; height:25px;"><a href="https://twitter.com/powerbuy" ><img style="display:block;" src="https://www.powerbuy.com.au/uploads/ufiles/email/2000/twitter-logo.png" width="31" height="25" alt="Twitter Logo" title="Twitter Logo" border="0"/></a></td>
+                                              <!--<td width="10">&nbsp;</td>
+                                              <td width="60" height="25" align="center" valign="middle" style="width:60px; height:25px;" ><img style="display:block;" src="images/268368_au_cs_sb_sb_utb.png" width="60" height="25" alt="YouTube Logo" title="YouTube Logo" border="0"/></td>-->
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                                
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:13px; color:#444444;"></td>
+                          </tr>
+                        </table></td>
+                      <td width="20">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td  bgcolor="#eeeeee" height="20" style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+              </tr>
+            </table></td>
+          <td class="noneMobile" style="width:25px;">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="h_10" align="center" height="20" style="font-size:0px; line-height:0px; border:0px;"><table class="noneMobile" width="600" align="center" cellpadding="0" cellspacing="0" style="min-width: 600px; mso-hide:all;" border="0">
+        <tr>
+          <td style="font-size:0px; line-height:0px; border:0px;">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+		<img src="https://www.google-analytics.com/collect?v=1&tid=UA-5930356-1&cid=444208CFFA&t=event&ec=email&ea=open&el=444208CFFA&cs=newsletter&cm=email&cn=B9654-013&cm1=1" alt="" width="1" height="1" border="0" style="display:none"/>
+
+</body>
+</html>
